@@ -17,29 +17,33 @@ namespace MovieApp.Models
                 {
                      Id=1,
                       Name="sss",
-                      Description="d1",
-                      ImageUrl ="1.png"
+                      Description="<p>The objective of this technique is to provide a long text alternative that serves the same purpose and presents the same information as the original non-text content when a short text alternative is not sufficient.Combined with the short text alternative, the long description should be able to substitute for the non-text content.The short alternative identifies the non - text content; the long alternative provides the information.If the non - text content were removed from the page and substituted with the short and long descriptions, the page would still provide the same function and information.</p>",
+                      ImageUrl ="1.png",
+                       ShortDescription="d1"
                 },
                 new Movie()
                 {
                      Id=2,
                       Name="bbbb",
-                      Description="d2",
-                      ImageUrl ="2.png"
+                      Description="<p>The objective of this technique is to provide a long text alternative that serves the same purpose and presents the same information as the original non-text content when a short text alternative is not sufficient.Combined with the short text alternative, the long description should be able to substitute for the non-text content.The short alternative identifies the non - text content; the long alternative provides the information.If the non - text content were removed from the page and substituted with the short and long descriptions, the page would still provide the same function and information.</p>",
+                      ImageUrl ="2.png",
+                       ShortDescription="d2"
                 },
                 new Movie()
                 {
                      Id=2,
                       Name="cccc",
-                      Description="d3",
-                      ImageUrl ="3.png"
+                      Description="<p>The objective of this technique is to provide a long text alternative that serves the same purpose and presents the same information as the original non-text content when a short text alternative is not sufficient.Combined with the short text alternative, the long description should be able to substitute for the non-text content.The short alternative identifies the non - text content; the long alternative provides the information.If the non - text content were removed from the page and substituted with the short and long descriptions, the page would still provide the same function and information.</p>",
+                      ImageUrl ="3.png",
+                       ShortDescription="d3"
                 },
                 new Movie()
                 {
                      Id=3,
                       Name="dddd",
-                      Description="d4",
-                      ImageUrl ="4.png"
+                      Description="<p>The objective of this technique is to provide a long text alternative that serves the same purpose and presents the same information as the original non-text content when a short text alternative is not sufficient.Combined with the short text alternative, the long description should be able to substitute for the non-text content.The short alternative identifies the non - text content; the long alternative provides the information.If the non - text content were removed from the page and substituted with the short and long descriptions, the page would still provide the same function and information.</p>",
+                      ImageUrl ="4.png",
+                       ShortDescription="d4"
                 }
             };
         }
