@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MovieApp.Data;
 using MovieApp.Models;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,7 @@ namespace MovieApp.Controllers
     {
         public IActionResult Index()
         {
-            return View(Repository.Movies);
+            return View(ProductRepository.Movies);
         }
 
         public IActionResult Contact()
@@ -21,7 +22,7 @@ namespace MovieApp.Controllers
 
         public IActionResult Details(int id)
         {
-            return View(Repository.GetById(id));
+            return View(ProductRepository.GetById(id));
         }
     }
 }

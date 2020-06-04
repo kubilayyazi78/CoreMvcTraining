@@ -1,15 +1,16 @@
-﻿using System;
+﻿using MovieApp.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MovieApp.Models
+namespace MovieApp.Data
 {
-    public static class Repository
+    public static class ProductRepository
     {
         private static List<Movie> _movies = null;
 
-        static Repository()
+        static ProductRepository()
         {
             _movies = new List<Movie>()
             {
