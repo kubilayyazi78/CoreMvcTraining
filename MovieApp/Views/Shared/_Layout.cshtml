@@ -3,11 +3,24 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
+    <link  rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <title>Movie App</title>
 </head>
 <body>
-    <div>
-        @RenderBody()
-    </div>
+    <header>
+        @Html.Partial("_navbar")
+    </header>
+    <main>
+        <div class="conteiner mt-4">
+
+            @RenderBody()
+        </div>
+    </main>
+    <footer>
+        @Html.Partial("_footer")
+    </footer>
+
+
 </body>
 </html>
