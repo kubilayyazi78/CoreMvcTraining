@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace MovieApp.Data
 {
-    public static class ProductRepository
+    public static class MovieRepository
     {
         private static List<Movie> _movies = null;
 
-        static ProductRepository()
+        static MovieRepository()
         {
             _movies = new List<Movie>()
             {

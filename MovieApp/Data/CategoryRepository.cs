@@ -26,14 +26,21 @@ namespace MovieApp.Data
                },
                  new Category
                {
-                    Id=1,
+                    Id=3,
                     Name="Bilim Kurgu"
                },
                   new Category
                {
-                    Id=1,
+                    Id=4,
                     Name="Komedi"
-               }
+               },
+                   new Category
+               {
+                    Id=5,
+                    Name="Savas"
+               },
+
+
             };
         }
 
